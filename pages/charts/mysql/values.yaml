@@ -47,7 +47,7 @@ pv:
     storage: 3Gi
   accessMode: ReadWriteMany
   hostPath:
-    path: "/var/lib/mysql/dev"
+    path: "/var/lib/mysql"
 pvc:
   resources:
     requests:
